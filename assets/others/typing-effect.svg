@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 60" width="100%" height="60" style="background: transparent;">
+<foreignObject width="100%" height="100%">
+<div xmlns="http://www.w3.org/1999/xhtml" style="display:flex;justify-content:center;align-items:center;width:100%;height:100%;margin:0;padding:0;">
+
+<style>
+.typing-container{
+font-family:ui-monospace,SFMono-Regular,Consolas,"Liberation Mono",Menlo,Monaco,monospace;
+font-size:24px;
+font-weight:700;
+color:#00d2ff;
+position:relative;
+display:flex;
+justify-content:center;
+align-items:center;
+height:100%;
+}
+
+.text-wrapper{
+position:absolute;
+white-space:nowrap;
+overflow:hidden;
+display:inline-block;
+max-width:0;
+padding-right:4px;
+border-right:3px solid #00d2ff;
+box-sizing:border-box;
+opacity:0;
+letter-spacing:.05em;
+}
+
+.p1{animation:playPhrase1 24s infinite;}
+.p2{animation:playPhrase2 24s infinite;}
+.p3{animation:playPhrase3 24s infinite;}
+.p4{animation:playPhrase4 24s infinite;}
+
+@keyframes playPhrase1{
+0%{max-width:0;opacity:1;}
+10%{max-width:23ch;opacity:1;}
+18%{max-width:23ch;opacity:1;}
+24%{max-width:0;opacity:1;}
+25%,100%{max-width:0;opacity:0;}
+}
+
+@keyframes playPhrase2{
+0%,25%{max-width:0;opacity:0;}
+25.1%{max-width:0;opacity:1;}
+35.1%{max-width:20ch;opacity:1;}
+43.1%{max-width:20ch;opacity:1;}
+49.1%{max-width:0;opacity:1;}
+50%,100%{max-width:0;opacity:0;}
+}
+
+@keyframes playPhrase3{
+0%,50%{max-width:0;opacity:0;}
+50.1%{max-width:0;opacity:1;}
+60.1%{max-width:17ch;opacity:1;}
+68.1%{max-width:17ch;opacity:1;}
+74.1%{max-width:0;opacity:1;}
+75%,100%{max-width:0;opacity:0;}
+}
+
+@keyframes playPhrase4{
+0%,75%{max-width:0;opacity:0;}
+75.1%{max-width:0;opacity:1;}
+85.1%{max-width:19ch;opacity:1;}
+93.1%{max-width:19ch;opacity:1;}
+99.1%{max-width:0;opacity:1;}
+100%{max-width:0;opacity:0;}
+}
+</style>
+
+<div class="typing-container">
+<div class="text-wrapper p1">Mobile App Developer</div>
+<div class="text-wrapper p2">Flutter Specialist</div>
+<div class="text-wrapper p3">ASP.NET Backend</div>
+<div class="text-wrapper p4">Software Engineer</div>
+</div>
+
+</div>
+</foreignObject>
+</svg>

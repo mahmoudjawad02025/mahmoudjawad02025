@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 300" width="800" height="300" style="background: transparent; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
+  <style>
+    .tech-text { fill: #00d2ff; font-weight: bold; font-size: 18px; opacity: 0; }
+    @keyframes orbit {
+      0% { transform: translate(0, 0) scale(0.5); opacity: 0; }
+      20% { opacity: 1; }
+      50% { transform: translate(300px, -20px) scale(1.2); opacity: 0.8; }
+      80% { opacity: 1; }
+      100% { transform: translate(600px, 0) scale(0.5); opacity: 0; }
+    }
+    .t1 { animation: orbit 10s linear infinite; }
+    .t2 { animation: orbit 10s linear infinite -2s; }
+    .t3 { animation: orbit 10s linear infinite -4s; }
+    .t4 { animation: orbit 10s linear infinite -6s; }
+    .t5 { animation: orbit 10s linear infinite -8s; }
+  </style>
+
+  <!-- Animated floating tech names -->
+  <text x="50" y="150" class="tech-text t1">FLUTTER</text>
+  <text x="50" y="150" class="tech-text t2">NODE.JS</text>
+  <text x="50" y="150" class="tech-text t3">MONGODB</text>
+  <text x="50" y="150" class="tech-text t4">.NET CORE</text>
+  <text x="50" y="150" class="tech-text t5">FIREBASE</text>
+
+  <!-- Decorative Orbit Ring -->
+  <ellipse cx="400" cy="150" rx="350" ry="80" fill="none" stroke="#00d2ff" stroke-width="1" stroke-dasharray="10,10" opacity="0.3">
+    <animate attributeName="stroke-dashoffset" from="0" to="100" dur="5s" repeatCount="indefinite" />
+  </ellipse>
+</svg>
