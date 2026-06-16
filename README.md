@@ -98,7 +98,7 @@ ASP.NET Core 9 & SQL Server — A scalable 3-layer (DAL/BLL/PL) API using generi
 ```js
 
 class Developer extends Human {
-  goal = "Engineering the intersection of logic and empathy";
+  goal = "Engineering the intersection of logic and purpose";
 }
 
 ```
